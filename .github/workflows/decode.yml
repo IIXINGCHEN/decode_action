@@ -23,8 +23,8 @@ jobs:
         npm run decode -- [-i input.js] [-o output.js]
     - name: Configure Git author
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "action"
+        git config --local user.email "ixingchen@outlook.com"
+        git config --local user.name "iixingchen"
     - name: Save decoded output to repository
       run: |
         git status
